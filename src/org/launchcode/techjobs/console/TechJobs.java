@@ -1,6 +1,5 @@
 package org.launchcode.techjobs.console;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -112,7 +111,7 @@ public class TechJobs {
     }
 
     // Print a list of jobs
-    private static void printJobs(@NotNull ArrayList<HashMap<String, String>> someJobs) {
+    private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
         if (someJobs.size() == 0) {
             System.out.println("No Results");
         } else {
